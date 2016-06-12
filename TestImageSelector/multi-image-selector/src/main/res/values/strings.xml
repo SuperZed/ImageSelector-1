@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">multi-image-selector</string>
+    <string name="folder_all">All Images</string>
+    <string name="preview">Preview</string>
+    <string name="msg_no_camera">No system camera found</string>
+    <string name="msg_amount_limit">Select images amount is limit</string>
+
+    <!-- ### 要过滤掉的图片文件夹，如有其他，添加即可！！！ -->
+    <string-array name="filter_out_dirs">
+        <item>uploadImages</item>
+        <item>OCR</item>
+    </string-array>
+    <!--已选择图片-->
+    <string name="selected">selected(%1$d/%2$d)</string>
+    <string name="open_gallery_fail">Gallery init failure!</string>
+</resources>
